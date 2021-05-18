@@ -1,0 +1,269 @@
+body {
+  color: black;
+  padding: 0;
+  margin: 0;
+  background-color: white;
+}
+
+header {
+  background-color: white;
+  position: sticky;
+  border-bottom: black 2px solid;
+}
+
+header .header {
+  color: black;
+  font-size: 36px;
+  display: flex;
+  padding: 15px;
+  font-family: "New Tegomin", serif;
+  letter-spacing: 8px;
+  justify-content: center;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+header .header:hover {
+  color: white;
+}
+
+header nav {
+  margin: -10px;
+  position: sticky;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+  padding: 12px;
+  margin: 10px;
+}
+
+header nav ul li {
+  list-style: none;
+}
+
+header nav ul li a {
+  color: black;
+  font-size: 18px;
+
+  transition: 0.5s;
+  user-select: none;
+  text-decoration: none;
+}
+
+header nav ul li a:hover {
+  color: gray;
+}
+
+.Container {
+  position: relative;
+  text-align: center;
+  user-select: none;
+}
+
+.Container1 {
+  color: black;
+
+  background-color: white;
+  margin-top: -4px;
+  border-top: black;
+}
+
+.Container1 .Exclusive {
+  font-size: 45px;
+  display: flex;
+  justify-content: center;
+  letter-spacing: 10px;
+  padding: 16px;
+
+  color: black;
+  font-family: "New Tegomin", serif;
+  user-select: none;
+}
+
+.Container1 .Exclusive-img {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.Container1 .Exclusive-img img {
+  padding: 20px;
+  width: 300px;
+  height: 400px;
+}
+
+.Container1 .Exclusive-box {
+  display: flex;
+  justify-content: space-around;
+}
+.Container1 .Exclusive-boxlink {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 20px;
+}
+
+.Container1 .Exclusive-text {
+  font-size: 30px;
+  padding: 15px;
+  user-select: none;
+  font-family: "New Tegomin", serif;
+}
+
+.Container1 .Exclusive-textlink {
+  font-size: 22px;
+  user-select: none;
+  text-decoration: none;
+  color: black;
+}
+
+.Container1 .Exclusive-textlink:hover {
+  color: black;
+  border-bottom: black solid 2px;
+}
+
+footer {
+  background-color: white;
+  font-family: "New Tegomin", serif;
+  padding: 10px;
+  height: 100%;
+  width: 100%;
+  border-top: black 2px solid;
+}
+
+footer .footer {
+  display: flex;
+  justify-content: space-around;
+}
+
+footer .footer .footertext {
+  letter-spacing: 4px;
+  font-size: 30px;
+  color: black;
+  user-select: none;
+  transition: 0.5s;
+  text-decoration: none;
+}
+
+footer .footer .footertext:hover {
+  color: gray;
+}
+
+.ContainerProduct1 {
+  color: black;
+}
+
+.Headertext {
+  color: black;
+  background-color: white;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  letter-spacing: 10px;
+  font-family: "New Tegomin", serif;
+  padding: 16px;
+
+  user-select: none;
+}
+
+.Productlist {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+}
+
+.product-card img {
+  width: 90%;
+}
+
+.product-info h5 {
+  font-size: 36px;
+  display: flex;
+  justify-content: center;
+
+  user-select: none;
+}
+
+.product-info a {
+  font-size: 30px;
+  text-align: center;
+  color: black;
+  user-select: none;
+  letter-spacing: 5px;
+
+  padding: 20px;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+.product-info a:hover {
+  color: darkblue;
+  border-color: darkblue;
+}
+
+.Container3 {
+  background-color: white;
+}
+
+.Container3 .Inner_Container3 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.Container3 .TextCard {
+  margin: 10px;
+  border: black 2px solid;
+  padding: 50px;
+  width: 36%;
+}
+
+.Container3 .TextBox {
+  display: flex;
+
+  color: black;
+
+  font-size: 26px;
+  padding: 25px;
+
+  letter-spacing: 3px;
+}
+
+.Container4 {
+  padding: 60px 0;
+
+  background-color: white;
+}
+
+.Inner_Container4 .Header_Section {
+  color: black;
+  font-size: 30px;
+  letter-spacing: 5px;
+  margin: 10px;
+  user-select: none;
+  padding-left: 40px;
+  font-family: "New Tegomin", serif;
+}
+
+.Inner_Container4 .Services_Container h3 {
+  color: black;
+  margin: 10px;
+  padding-left: 40px;
+  font-size: 30px;
+  transition: 0.5s;
+  user-select: none;
+}
+
+.Inner_Container4 .Services_Container h3:hover {
+  color: gray;
+  margin-left: 20px;
+}
