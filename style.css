@@ -13,7 +13,7 @@ header {
 
 header .header {
   color: black;
-  font-size: 3vw;
+  font-size: 3.6 vw;
   display: flex;
   padding: 1.5vw;
   font-family: "New Tegomin", serif;
@@ -75,7 +75,7 @@ header nav ul li a:hover {
   display: flex;
   justify-content: center;
   letter-spacing: 1vw;
-  padding: 1, 6vw;
+  padding: 1.6vw;
 
   color: black;
   font-family: "New Tegomin", serif;
